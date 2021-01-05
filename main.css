@@ -1,0 +1,66 @@
+body {
+    background-color: aqua;
+}
+#quote-box {
+    height: 15rem; 
+    background-color: #fff;
+    width: 30rem;
+    border-radius: 0.4em;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+#text {
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.2em;
+    color: rgb(12, 218, 218);
+}
+
+#author {
+    position: relative;
+    left: 20em;
+    color: rgb(12, 223, 223);
+}
+
+
+#new-quote {
+    width: 7em;
+    height: 2.8em;
+    line-height: 2.5em;
+    background-color: aqua;
+    color: #fff;
+    position: relative;
+    left: 27em;
+    top: 2.6em;
+    border-radius: 0.3em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+#btn-tweet-quote {
+    width: 4em;
+    height: 2.7em;
+    background-color: aqua;
+    position: relative;
+    left: 2em;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+a {
+    text-decoration: none;  /*remove strange underline*/
+}
